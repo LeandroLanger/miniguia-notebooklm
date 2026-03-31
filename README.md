@@ -1,2 +1,2 @@
 # miniguia-notebooklm
-IA aplicada a investimentos
+IA Aplicada a Investimentos
