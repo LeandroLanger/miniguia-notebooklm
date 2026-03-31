@@ -98,7 +98,7 @@ Refinar a pergunta adicionando contexto e pedindo exemplos práticos
 
 ## 🧠 Estratégia de Engenharia de Prompts
 
-Durante o projeto, foi possível identificar que:
+Durante o desenvolvimento deste projeto, percebi na prática como pequenas mudanças nos prompts influenciam diretamente na qualidade das respostas da IA. Ao longo do projeto, foi possível identificar que:
 
 - Prompts genéricos geram respostas superficiais  
 - Prompts específicos geram respostas mais úteis  
@@ -117,8 +117,6 @@ A engenharia de prompts foi essencial para transformar a IA em uma ferramenta de
 - "Compare diferentes abordagens sobre [tema]"
 - "Explique como um iniciante pode aplicar [tema]"
 - "Quais são os riscos e limitações de [tema]?"
-
----
 
 ---
 
