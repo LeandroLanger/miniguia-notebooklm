@@ -22,10 +22,11 @@ Este projeto tem como objetivo explorar como a IA pode ser aplicada em investime
 
 As seguintes fontes abertas foram utilizadas no NotebookLM:
 
-1. https://br.investing.com/academy/trading/ia-investimentos-trading/
-2. https://www.youtube.com/watch?v=IivTEX6i5ZY
-3. https://periodicos.fgv.br/gvexecutivo/issue/view/v22n3/2783?utm_source=portal-fgv
-4. https://www.travelexbank.com.br/blog/inteligencia-artificial-investimentos/
+1. https://www.youtube.com/watch?v=IivTEX6i5ZY
+2. https://br.investing.com/academy/trading/ia-investimentos-trading/
+3. https://www.travelexbank.com.br/blog/inteligencia-artificial-investimentos/
+4. https://periodicos.fgv.br/gvexecutivo/issue/view/v22n3/2783?utm_source=portal-fgv
+
 
 Essas fontes foram analisadas e utilizadas como base para extração de conhecimento com IA.
 
@@ -37,104 +38,127 @@ Durante o uso do NotebookLM, foram realizados diversos testes para melhorar a qu
 
 ---
 
-### 🔹 Prompt 1
+### 🔹 Prompt 1 – Visão Geral
 
-**Pergunta:**
-"Como a inteligência artificial é usada no mercado financeiro?"
+"Com base nas fontes fornecidas, explique como a inteligência artificial é utilizada no mercado de investimentos."
 
 📌 Resultado:
-Resposta ampla explicando uso em análise de dados e automação
+A IA é usada para análise de dados, automação de operações e previsão de tendências.
 
 📌 Problema:
-Muito genérica
+Resposta genérica
 
 📌 Ajuste:
-"Explique com exemplos práticos e aplicações reais no mercado financeiro"
+"Explique com exemplos práticos citando aplicações reais no mercado financeiro brasileiro"
 
 ---
 
-### 🔹 Prompt 2
+### 🔹 Prompt 2 – Extração de valor
 
-**Pergunta:**
-"Quais estratégias de investimento utilizam IA?"
+"Quais são as principais vantagens e riscos do uso de IA em investimentos segundo as fontes analisadas?"
 
 📌 Resultado:
-Trading algorítmico, análise preditiva, gestão de portfólio
+Listou benefícios como automação e riscos como dependência de dados
 
 📌 Aprendizado:
-Prompts específicos geram respostas mais úteis
+Perguntas comparativas geram respostas mais completas
 
----
+### 🔹 Prompt 3 – Foco técnico
 
-### 🔹 Prompt 3
-
-**Pergunta:**
-"Como iniciantes podem usar IA para investir?"
+"Quais técnicas de inteligência artificial são utilizadas no trading e como elas funcionam?"
 
 📌 Resultado:
-Sugestões como uso de plataformas automatizadas
+Machine Learning, análise preditiva, algoritmos
 
 📌 Problema:
-Pouco detalhado
+Muito técnico
 
 📌 Ajuste:
-"Explique passo a passo para iniciantes, com exemplos simples"
+"Explique como se eu fosse iniciante, com exemplos simples"
 
 ---
 
-### 🔹 Prompt 4 (Avançado)
+### 🔹 Prompt 4 – Aplicação prática
 
-**Pergunta:**
-"Como criar um sistema de IA para análise de investimentos?"
+"Como um iniciante pode começar a usar inteligência artificial para investir, considerando as ferramentas disponíveis hoje?"
 
 📌 Resultado:
-Sugestões envolvendo Python, APIs e Machine Learning
+Plataformas automatizadas e análise de dados
+
+📌 Aprendizado:
+Prompts com contexto prático geram respostas mais úteis
 
 📌 Dificuldade:
-Conteúdo técnico
+Dificuldade em obter respostas específicas sem detalhar bem o prompt
 
 📌 Solução:
-Solicitar explicação simplificada
+Refinar a pergunta adicionando contexto e pedindo exemplos práticos
+
+---
+
+## 🧠 Estratégia de Engenharia de Prompts
+
+Durante o projeto, foi possível identificar que:
+
+- Prompts genéricos geram respostas superficiais  
+- Prompts específicos geram respostas mais úteis  
+- Solicitar exemplos melhora a compreensão  
+- Pedir simplificação ajuda no aprendizado  
+- Comparar fontes aumenta a qualidade da análise  
+
+A engenharia de prompts foi essencial para transformar a IA em uma ferramenta de aprendizado eficiente.
+
+---
+
+## 🔁 Prompts Reutilizáveis
+
+- "Explique [tema] com exemplos práticos"
+- "Liste vantagens e desvantagens de [tema]"
+- "Compare diferentes abordagens sobre [tema]"
+- "Explique como um iniciante pode aplicar [tema]"
+- "Quais são os riscos e limitações de [tema]?"
+
+---
 
 ---
 
 ## 📖 Miniguia de Estudo
 
----
-
 ### 🧾 Resumo
 
-A Inteligência Artificial vem transformando o mercado de investimentos através de:
+A Inteligência Artificial está sendo amplamente utilizada no mercado de investimentos para:
 
-* Análise de grandes volumes de dados
-* Identificação de padrões de mercado
-* Previsão de tendências
-* Automação de operações financeiras
+- Análise de grandes volumes de dados financeiros  
+- Identificação de padrões de mercado  
+- Previsão de tendências de ativos  
+- Automação de operações (trading algorítmico)  
 
-Investidores utilizam IA para reduzir riscos e melhorar a precisão das decisões.
+Com base nas fontes analisadas, observa-se que a IA melhora a eficiência das decisões, porém ainda depende da qualidade dos dados e da interpretação humana.
 
 ---
 
 ### 📚 Glossário
 
-* **Inteligência Artificial (IA)**: Sistemas capazes de simular inteligência humana
-* **Machine Learning**: Algoritmos que aprendem com dados
-* **Análise Preditiva**: Uso de dados para prever movimentos futuros
-* **Trading Algorítmico**: Operações automatizadas com base em regras
-* **Backtesting**: Teste de estratégias com dados históricos
-* **Big Data**: Grande volume de dados analisados por IA
+- **Inteligência Artificial (IA)**: Tecnologia que simula a inteligência humana  
+- **Machine Learning**: Algoritmos que aprendem com dados  
+- **Análise Preditiva**: Uso de dados para prever tendências  
+- **Trading Algorítmico**: Operações automatizadas por sistemas  
+- **Backtesting**: Teste de estratégias com dados históricos  
+- **Big Data**: Grande volume de dados analisados por sistemas  
 
 ---
 
-### 🔁 Prompts Reutilizáveis
-
-* "Explique [conceito] de forma simples e com exemplos"
-* "Quais são as vantagens e riscos de [tema]?"
-* "Como aplicar [tecnologia] em investimentos?"
-* "Explique passo a passo para iniciantes"
-* "Quais ferramentas posso usar para começar com [tema]?"
-
 ---
+
+## ⚠️ Limitações da Inteligência Artificial
+
+Apesar dos benefícios, a IA apresenta algumas limitações importantes:
+
+- Dependência da qualidade dos dados  
+- Dificuldade em prever eventos inesperados (ex: crises financeiras)  
+- Possibilidade de erros em cenários extremos  
+
+Dessa forma, a IA deve ser utilizada como ferramenta de apoio, e não como única base para decisões de investimento.
 
 ## 🚀 Conclusão
 
